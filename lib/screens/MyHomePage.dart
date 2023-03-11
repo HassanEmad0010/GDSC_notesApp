@@ -11,12 +11,9 @@ class MyHomePage extends StatelessWidget{
             Navigator.pushNamed(context, "NoteScreen");
 
           },
-          child: Container(
-
-            child: Image.asset('assets/images/homephoto.png'),
-
-          ),
+          child: Image.asset('assets/images/homephoto.png',width: 600,height: 900,),
         ),
+
       )
 
 
